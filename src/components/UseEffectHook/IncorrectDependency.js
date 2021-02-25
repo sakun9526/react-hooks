@@ -23,3 +23,9 @@ function IncorrectDependency() {
 }
 
 export default IncorrectDependency
+
+/*
+    we can use multiple useEffect hooks in one component
+    
+
+*/

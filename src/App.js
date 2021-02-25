@@ -8,13 +8,13 @@ import React from 'react';
 
 //================================== USE EFFECT HOOK ==========================================//
 //import ConditionalRun from './components/UseEffectHook/ConditionalRun'
-import IncorrectDependency from './components/UseEffectHook/IncorrectDependency'
-
+//import IncorrectDependency from './components/UseEffectHook/IncorrectDependency'
+import FetchAllPosts from './components/UseEffectHook/FetchAllPosts'
 
 function App() {
   return (
     <div className="App">
-      <IncorrectDependency/>
+      <FetchAllPosts/>
     </div>
   );
 }
