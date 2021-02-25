@@ -9,12 +9,13 @@ import React from 'react';
 //================================== USE EFFECT HOOK ==========================================//
 //import ConditionalRun from './components/UseEffectHook/ConditionalRun'
 //import IncorrectDependency from './components/UseEffectHook/IncorrectDependency'
-import FetchAllPosts from './components/UseEffectHook/FetchAllPosts'
+//import FetchAllPosts from './components/UseEffectHook/FetchAllPosts'
+import FetchSinglePost from './components/UseEffectHook/FetchSinglePost'
 
 function App() {
   return (
     <div className="App">
-      <FetchAllPosts/>
+      <FetchSinglePost/>
     </div>
   );
 }
