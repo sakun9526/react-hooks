@@ -7,12 +7,14 @@ import React from 'react';
 //import StateWithArray from './components/UseStateHook/StateWithArray'
 
 //================================== USE EFFECT HOOK ==========================================//
-import ConditionalRun from './components/UseEffectHook/ConditionalRun'
+//import ConditionalRun from './components/UseEffectHook/ConditionalRun'
+import IncorrectDependency from './components/UseEffectHook/IncorrectDependency'
+
 
 function App() {
   return (
     <div className="App">
-      <ConditionalRun/>
+      <IncorrectDependency/>
     </div>
   );
 }
