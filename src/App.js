@@ -10,12 +10,22 @@ import React from 'react';
 //import ConditionalRun from './components/UseEffectHook/ConditionalRun'
 //import IncorrectDependency from './components/UseEffectHook/IncorrectDependency'
 //import FetchAllPosts from './components/UseEffectHook/FetchAllPosts'
-import FetchSinglePost from './components/UseEffectHook/FetchSinglePost'
+//import FetchSinglePost from './components/UseEffectHook/FetchSinglePost'
+
+//================================== USE CONTEXT HOOK ========================================//
+import ComponentA from './components/UseContextHook/ComponentA'
+export const UserContext = React.createContext()
+export const ChannelContext = React.createContext()
 
 function App() {
   return (
     <div className="App">
-      <FetchSinglePost/>
+      <UserContext.Provider value={'Sakun'}>
+        <ChannelContext.Provider value={'Coding fun'}>
+            <ComponentA/>
+        </ChannelContext.Provider>
+      </UserContext.Provider>
+       
     </div>
   );
 }
