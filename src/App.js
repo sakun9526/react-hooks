@@ -13,18 +13,24 @@ import React from 'react';
 //import FetchSinglePost from './components/UseEffectHook/FetchSinglePost'
 
 //================================== USE CONTEXT HOOK ========================================//
-import ComponentA from './components/UseContextHook/ComponentA'
-export const UserContext = React.createContext()
-export const ChannelContext = React.createContext()
+// import ComponentA from './components/UseContextHook/ComponentA'
+// export const UserContext = React.createContext()
+// export const ChannelContext = React.createContext()
+
+//================================== USE REDUCER HOOK ========================================//
+import ReducerCounter from './components/UseReducerHook/ReducerCounter'
 
 function App() {
   return (
     <div className="App">
-      <UserContext.Provider value={'Sakun'}>
+      <ReducerCounter/>
+
+    {/*------------------ useContext Hook code --------------------*/}
+      {/* <UserContext.Provider value={'Sakun'}>
         <ChannelContext.Provider value={'Coding fun'}>
             <ComponentA/>
         </ChannelContext.Provider>
-      </UserContext.Provider>
+      </UserContext.Provider> */}
        
     </div>
   );
