@@ -18,12 +18,13 @@ import React from 'react';
 // export const ChannelContext = React.createContext()
 
 //================================== USE REDUCER HOOK ========================================//
-import ReducerCounter from './components/UseReducerHook/ReducerCounter'
+//import ReducerCounter from './components/UseReducerHook/ReducerCounter'
+import UseReducerContext from './components/UseReducerHook/UseReducerContext/UseReducerContext'
 
 function App() {
   return (
     <div className="App">
-      <ReducerCounter/>
+      <UseReducerContext/>
 
     {/*------------------ useContext Hook code --------------------*/}
       {/* <UserContext.Provider value={'Sakun'}>
