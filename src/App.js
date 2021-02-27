@@ -5,6 +5,7 @@ import React from 'react';
 //import StateCounterPrev from './components/UseStateHook/StateCounterPrev'
 // import StateWithObject from './components/UseStateHook/StateWithObject'
 //import StateWithArray from './components/UseStateHook/StateWithArray'
+import DataFetchingWithUseEffect from './components/UseStateHook/DataFetchingWithUseEffect'
 
 //================================== USE EFFECT HOOK ==========================================//
 //import ConditionalRun from './components/UseEffectHook/ConditionalRun'
@@ -19,12 +20,12 @@ import React from 'react';
 
 //================================== USE REDUCER HOOK ========================================//
 //import ReducerCounter from './components/UseReducerHook/ReducerCounter'
-import UseReducerContext from './components/UseReducerHook/UseReducerContext/UseReducerContext'
+//import UseReducerContext from './components/UseReducerHook/UseReducerContext/UseReducerContext'
 
 function App() {
   return (
     <div className="App">
-      <UseReducerContext/>
+      <DataFetchingWithUseEffect/>
 
     {/*------------------ useContext Hook code --------------------*/}
       {/* <UserContext.Provider value={'Sakun'}>
