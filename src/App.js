@@ -21,11 +21,12 @@ import DataFetchingWithUseEffect from './components/UseStateHook/DataFetchingWit
 //================================== USE REDUCER HOOK ========================================//
 //import ReducerCounter from './components/UseReducerHook/ReducerCounter'
 //import UseReducerContext from './components/UseReducerHook/UseReducerContext/UseReducerContext'
+import DataFetchingWithUseReducer from './components/UseReducerHook/DataFetchingWithUseReducer'
 
 function App() {
   return (
     <div className="App">
-      <DataFetchingWithUseEffect/>
+      <DataFetchingWithUseReducer/>
 
     {/*------------------ useContext Hook code --------------------*/}
       {/* <UserContext.Provider value={'Sakun'}>
