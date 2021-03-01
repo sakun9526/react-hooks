@@ -24,12 +24,15 @@ import React from 'react';
 //import DataFetchingWithUseReducer from './components/UseReducerHook/DataFetchingWithUseReducer'
 
 //================================= USE CALLBACK HOOK ========================================//
-import ParentComponent from './components/UseCallbackHook/ParentComponent'
+//import ParentComponent from './components/UseCallbackHook/ParentComponent'
+
+//================================= USE MEMO HOOK =============================================//
+import Counter from './components/UseMemoHook/Counter'
 
 function App() {
   return (
     <div className="App">
-      <ParentComponent/>
+      <Counter/>
 
     {/*------------------ useContext Hook code --------------------*/}
       {/* <UserContext.Provider value={'Sakun'}>
