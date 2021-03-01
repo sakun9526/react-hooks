@@ -27,12 +27,17 @@ import React from 'react';
 //import ParentComponent from './components/UseCallbackHook/ParentComponent'
 
 //================================= USE MEMO HOOK =============================================//
-import Counter from './components/UseMemoHook/Counter'
+//import Counter from './components/UseMemoHook/Counter'
+
+//================================= USE COUNTER (CUSTOM HOOK) =================================//
+import CounterOne from './components/CustomHook/CounterOne'
+import CounterTwo from './components/CustomHook/CounterTwo'
 
 function App() {
   return (
     <div className="App">
-      <Counter/>
+      <CounterOne/>
+      <CounterTwo/>
 
     {/*------------------ useContext Hook code --------------------*/}
       {/* <UserContext.Provider value={'Sakun'}>
