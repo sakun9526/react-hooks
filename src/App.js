@@ -5,7 +5,7 @@ import React from 'react';
 //import StateCounterPrev from './components/UseStateHook/StateCounterPrev'
 // import StateWithObject from './components/UseStateHook/StateWithObject'
 //import StateWithArray from './components/UseStateHook/StateWithArray'
-import DataFetchingWithUseEffect from './components/UseStateHook/DataFetchingWithUseEffect'
+//import DataFetchingWithUseEffect from './components/UseStateHook/DataFetchingWithUseEffect'
 
 //================================== USE EFFECT HOOK ==========================================//
 //import ConditionalRun from './components/UseEffectHook/ConditionalRun'
@@ -21,12 +21,15 @@ import DataFetchingWithUseEffect from './components/UseStateHook/DataFetchingWit
 //================================== USE REDUCER HOOK ========================================//
 //import ReducerCounter from './components/UseReducerHook/ReducerCounter'
 //import UseReducerContext from './components/UseReducerHook/UseReducerContext/UseReducerContext'
-import DataFetchingWithUseReducer from './components/UseReducerHook/DataFetchingWithUseReducer'
+//import DataFetchingWithUseReducer from './components/UseReducerHook/DataFetchingWithUseReducer'
+
+//================================= USE CALLBACK HOOK ========================================//
+import ParentComponent from './components/UseCallbackHook/ParentComponent'
 
 function App() {
   return (
     <div className="App">
-      <DataFetchingWithUseReducer/>
+      <ParentComponent/>
 
     {/*------------------ useContext Hook code --------------------*/}
       {/* <UserContext.Provider value={'Sakun'}>
